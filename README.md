@@ -14,4 +14,10 @@
 
 ### Sublime
 
-### Common linux
+### Linux
+* `netstat` or `ss` - list open ports
+    * `-n`, `--numeric` - don't resolve service names
+    * `-l`, `--listening` - display listening sockets
+    * `-t`, `--tcp` - display only TCP sockets
+    * `-u`, `--udp` - display only UDP sockets
+    * `-p`, `--processes` - show process using socket

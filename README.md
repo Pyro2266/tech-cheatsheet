@@ -1,7 +1,9 @@
 # Technology cheatsheet
 
 ### Maven
-
+* `clean install` - cleans and builds project
+    * `-DskipTests=true` - skips tests
+    * `-P <profile_name>` - runs with profile
 ### GIT
 
 ### Docker
@@ -13,6 +15,8 @@
 * `docker system prune -a` - additionally remove any stopped containers and all unused images (not just dangling images)
 
 ### Sublime
+* `alt + F3` - quick find all - selects all occurrences of selected part of text
+* `ctrl + shift + L` - places cursor at the end of each selected line
 
 ### Linux
 * `netstat` or `ss` - list open ports

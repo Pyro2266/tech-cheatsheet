@@ -26,3 +26,5 @@
     * `-t`, `--tcp` - display only TCP sockets
     * `-u`, `--udp` - display only UDP sockets
     * `-p`, `--processes` - show process using socket
+* `sudo update-alternatives --config java` - change installed java version
+    

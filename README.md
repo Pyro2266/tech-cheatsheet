@@ -11,6 +11,7 @@
 * `docker ps -a` - show all containers
 * `docker images` - show images
 * `docker inspect <container_name>` - show configuration and information about container (including network and IP addresses) 
+* `docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name>` - show only IP address of container
 * `docker exec -it <container_name> /bin/bash` - open console on running container
 * `docker system prune` - clean up dangling (not associated with a container) resources (images, containers, volumes, networks)
 * `docker system prune -a` - additionally remove any stopped containers and all unused images (not just dangling images)
